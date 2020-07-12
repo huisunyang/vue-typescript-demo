@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/vue/types"
+    ],
+    "lib": [
+      "es2017",
+      "es2016",
+      "dom"
+    ]
+  },
+  "include": ["src/**/*.*","**/*.vue"],
+  "exclude": ["node_modules", "build", "dist"]
+}
